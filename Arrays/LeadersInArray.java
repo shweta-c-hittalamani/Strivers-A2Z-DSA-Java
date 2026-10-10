@@ -13,6 +13,7 @@ class Solution {
                 max=nums[i];
             }
         }
-       return Collections.reverse(res);
+        Collections.reverse(res);
+        return res;
     }
 }
